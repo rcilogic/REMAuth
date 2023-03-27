@@ -93,7 +93,7 @@ struct AuthController: RouteCollection {
             string: csrfAuthToken,
             expires: nil,
             maxAge: csrfTokenTTL,
-            path: "/auth",
+            path: "/",
             isSecure: true,
             isHTTPOnly: true,
             sameSite: HTTPCookies.SameSitePolicy.none)
